@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <title>Események - TutiCraft Oldala<title>
 <style>
 body, html {
   height: 100%;
