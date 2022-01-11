@@ -14,7 +14,31 @@
     <title>HTML code editor online - TutiCraftHUN</title>
     </head>
 <body>
-    
+    <h1>Try it editor made by: TutiCraft<h1>
+  <style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+
+
+
+<button class="btn btn-dark" onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
     <div class="main-editor">
         <button class="btn btn-success btn-run">Run</button>
         <div class="first" contenteditable>
