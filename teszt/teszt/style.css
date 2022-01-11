@@ -1,9 +1,5 @@
 .btn {
-background-color: ;
   text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-    padding: 5px 12px;
     font-color: #f1f1f1;
     }
 
@@ -25,21 +21,7 @@ cursor: url(https://cdn.custom-cursor.com/db/4313/32/arrow2492.png) 4 12, auto;
   
   }
 
-.btn-rsun {
-background-color: #white; 
-  color: black; 
 
-  cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
-
-  text-decoration: none;
-
-  
-  color: gold;
-  font-size: 12px;
-
-  cursor: url(https://cdn.custom-cursor.com/db/4313/32/arrow2492.png) 4 12, auto;
- 
-}
 
 
 
