@@ -11,13 +11,21 @@
     <link rel="stylesheet" href="https://tuticrafthun.github.io/web/teszt/teszt/style.css">
     <title>HTML code editor online - TutiCraftHUN</title>
     </head>
-<body class="dark-mode">
-  <style>
+  <style>   
+
 body {
   padding: 25px;
   background-color: #1e2024;
   color: white;
   font-size: 25px;
+ overflow-y: scroll; /* Show horizontal scrollbar */
+    overflow-x: scroll; /* Show horizontal scrollbar */
+ }
+ .f {
+    display: block;
+  width: 100.5em;
+  overflow: auto;
+ height: 100.5em
 
 }
 
@@ -39,12 +47,10 @@ cursor: url(https://cdn.custom-cursor.com/db/4313/32/arrow2492.png) 4 12, auto;
   width: 100%;
   padding: 1rem;
   box-shadow:0 2px 3px black;
-  position:fixed;
   height:100vh;
-   justify-content: center;
-    align-items: center;
   border: 1px solid black;
   color: black;
+  position: relative;
   }
   
   
@@ -58,6 +64,7 @@ cursor: url(https://cdn.custom-cursor.com/db/4313/32/arrow2492.png) 4 12, auto;
   outline: none;
   padding: 0.4rem;
   height: 90vh;
+  
 }
 
   
@@ -72,13 +79,24 @@ cursor: url(https://cdn.custom-cursor.com/db/4313/32/arrow2492.png) 4 12, auto;
   height: 92vh;
 }
 .scoller {
-  overflow-x: scroll; /* Show horizontal scrollbar */
-    display: block;
-  width: 31em;
+  overflow-x: scroll;
+  overflow-y: scroll; 
   overflow: auto;
- height: 13em
+
+    display: block;
+  width: 11.5em;
+ height: 17.5em;
 }
 
+
+ 
+.scollertwo {
+  overflow-x: scroll; /* Show horizontal scrollbar */
+    display: block;
+  width: 10.6em;
+  overflow: auto;
+ height: 13.5em
+}
 </style>
 
 <script>
@@ -102,7 +120,8 @@ window.getSelection().addRange(r);
 document.execCommand('copy');
 window.getSelection().removeAllRanges();
 }
-</script>
+</script>            
+
 <h2>Try it editor<h2>
 <a type="button" class="btn btn-danger" href="/"><il class="glyphicon glyphicon-home"><il></a><a href="#" class="btn btn-danger" onclick="CopyToClipboard('id');return false;"><il class="glyphicon glyphicon-copy"><il></a></a><a href="#" class="btn btn-danger" onclick="CopyToClipboard('share');return false;"><il class="glyphicon glyphicon-share"><il></a><a type="button" class="btn btn-danger" target="_blank" href="https://www.w3schools.com/html/html_formatting.asp"><il class="glyphicon glyphicon-font"><il></a>
 
@@ -114,15 +133,17 @@ window.getSelection().removeAllRanges();
 
 
         </h3></div></div><h1>⠀<h1>
+       <h1>⠀<h1>
+           <div class="scollertwo">
         <iframe class="second">
         </iframe>
-    </div></div>
+    </div></div></scroller>
 
     <script src="https://tuticrafthun.github.io/web/teszt/teszt/editor.js"></script>
 
  <div id="share"> 
-<p style="color:#1e2024">https://tuticrafthun.github.io/web/tryit/</p>
+<p style="color:#1e2024">https://tuticrafthun.github.io/web/tryit/
 </div>
-
+<h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1><h1>⠀<h1>
 <h1>⠀<h1>
 </h1></body></html>
